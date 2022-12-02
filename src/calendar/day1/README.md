@@ -57,5 +57,5 @@ Find the top three Elves carrying the most Calories. How many Calories are those
 #### Answer
 
 ```
-<!-- 70567 -->
+203420
 ```
