@@ -1,4 +1,4 @@
-use advent_of_code_2022::parse_input;
+use advent_of_code_2022::utils::parse_input::parse_input;
 
 fn main() {
     let input = parse_input("src/calendar/day1/input.txt");
