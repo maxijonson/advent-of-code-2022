@@ -1,8 +1,6 @@
-# Day 1
+# Day 1 - Calorie Counting
 
-## Calorie Counting
-
-### Part 1
+## Part 1
 
 The jungle must be too overgrown and difficult to navigate in vehicles or access from the air; the Elves' expedition traditionally goes on foot. As your boats approach land, the Elves begin taking inventory of their supplies. One important consideration is food - in particular, the number of Calories each Elf is carrying (your puzzle input).
 
@@ -38,13 +36,13 @@ In case the Elves get hungry and need extra snacks, they need to know which Elf 
 
 Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?
 
-#### Answer
+### Answer
 
 ```
 68467
 ```
 
-### Part 2
+## Part 2
 
 By the time you calculate the answer to the Elves' question, they've already realized that the Elf carrying the most Calories of food might eventually run out of snacks.
 
@@ -54,7 +52,7 @@ In the example above, the top three Elves are the fourth Elf (with 24000 Calorie
 
 Find the top three Elves carrying the most Calories. How many Calories are those Elves carrying in total?
 
-#### Answer
+### Answer
 
 ```
 203420
