@@ -30,3 +30,7 @@ path = "src/calendar/day3/part1.rs"
 [[bin]]
 name = "d3p2"
 path = "src/calendar/day3/part2.rs"
+
+[[bin]]
+name = "d4p1"
+path = "src/calendar/day4/part1.rs"
