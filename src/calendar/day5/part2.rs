@@ -39,9 +39,13 @@ fn main() {
         let src_stack = src_stack.parse::<usize>().unwrap() - 1; // Zero-indexed
         let dest_stack = dest_stack.parse::<usize>().unwrap() - 1; // Zero-indexed
 
+        let mut crates_to_move = vec![];
         for _ in 0..amount {
-            let top_crate = stacks[src_stack].pop().unwrap();
-            stacks[dest_stack].push(top_crate);
+            crates_to_move.push(stacks[src_stack].pop().unwrap());
+        }
+        crates_to_move.reverse();
+        for crate_to_move in crates_to_move {
+            stacks[dest_stack].push(crate_to_move);
         }
     }
 
